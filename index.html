@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tax Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+</head>
+
+ <!the line below aligns everything with in the element to the center of the screen> 
+
+<body align = "center" > 
+   <div>
+
+    <br><h1> Grade Generator</h1>
+
+    <form>
+
+        <h3>Input marks</h3>
+
+            <label for="marks">Marks</label><br>
+            <input type="mumber" id="marks" name="mARKs" ><br>
+            <button id = "submitBtn3" >Submit</button>
+    </form> 
+    <table align="center">
+            <tr>
+                <td> Grade: </td>
+
+                <td id="outPutGrade"></td>
+            </tr>
+
+        </table>
+
+    <script src=grade.js></script>
+
+
+   </div>
+
+   <div> 
+    <!the next line initiates a page break while displaying the header; Tax calculator> 
+    <br><h1> Tax Calculator</h1>
+     
+    
+        <form>
+
+            <h3>Input your basic salary</h3>
+
+            <label for="basicSalary">Basic salary</label><br>
+            <input type="mumber" id="basicSalary" name="basicSalary" ><br>
+            <button id = "submitBtn1">Submit</button>
+        </form> 
+        <table align="center">
+            <tr>
+                <td> Net salary: </td>
+                <td id="outPut2"></td>
+            
+                <td> Gross salary: </td>
+                <td id="outPut4"></td>
+            
+                <td> Payee Tax: </td>
+                <td id="outPut5"></td>
+            
+                <td> NHIF Deductions: </td>
+                <td id="outPut6"></td>
+               
+                <td> NSSF Deductions: </td>
+                <td id="outPut7"></td>
+            </tr>
+
+        </table>
+        <script src="salary.js"></script>
+        
+    
+    </div>
+
+   <div>
+    <br><h1> Speed Detector</h1>
+
+    <form>
+
+        <h3>Input speed</h3>
+
+        <label for="Speed">Speed</label><br>
+        <input type="mumber" id="speed" name="sPEEd" ><br>
+        <button id = "submitBtn2">Submit</button> 
+
+    </form> 
+    <table align="center">
+        <tr>
+            <td> Demerit points: </td>
+
+            <td id="outPut11"></td>
+        </tr>
+
+    </table>
+    <script src = speed.js></script>
+   </div>
+
+
+</body>
+</html>
